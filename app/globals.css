@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
+
+@layer base{
+  body{
+
+    @apply bg-primary text-white leading-loose
+  }
+  .h1{
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2{
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  } 
+  .h3{
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke:1px #7dd3fc;
+  }
+}
+
 
 :root {
   --background: #ffffff;
@@ -10,7 +34,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #1c1c22;
     --foreground: #ededed;
   }
 }
@@ -18,16 +42,16 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-@layer utilities {
+/* @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
 
-@layer base {
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -90,4 +114,4 @@ body {
   body {
     @apply bg-background text-foreground;
   }
-}
+} */
