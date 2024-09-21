@@ -7,12 +7,12 @@ const Photo = () => {
     <div className="w-full h-full relative">
       <motion.div>
         <div className="w-[298px] h-[298px] xl:w-[398px] xl:h-[498px]">
-        <img
+        {/* <img
       src="/assets/
       photo.png"  // Path to the image in the public folder
       alt="Programming Image"
       style={{ width: '600px', height: '400px' }}  // Set dimensions
-    />
+    /> */}
 
 
         </div>
