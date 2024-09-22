@@ -154,10 +154,8 @@ const Work = () => {
                       <div className="relative w-full h-full aspect-[16/9]">
                         <Image
 
-                          // src={require("../public/pic/c3.png")}
                           src={project.image}
                           fill
-                          // objectFit="fit"
                           className="object-contain"
                           alt=""
                           unoptimized 
