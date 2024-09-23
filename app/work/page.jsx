@@ -45,18 +45,18 @@ const projects = [
     description:
       "I created a food delivery website called Cottage using React for the frontend, Firebase for the backend, and Ant Design (AntD) for the UI components.",
     stack: [{ name: "React.js" }, { name: "Css 3" }, { name: "Ant Design " }],
-    image: "/assets/pic/c2.png",
+    image: "/assets/pic/c3.png",
     live: "http://figmaproject2-kohl.vercel.app/",
     github: "",
   },
   {
-    num: "02",
+    num: "04",
     category: "frontend",
     title: "project 4",
     description:
       "I created a simple UI project using React to practice building interactive user interfaces.",
     stack: [{ name: "React.js" }, { name: "Saas" }, { name: "Mui" }],
-    image: "/assets/pic/c3.png",
+    image: "/assets/pic/c2.png",
     live: "http://metaproject-alpha.vercel.app/",
     github: "",
   },
