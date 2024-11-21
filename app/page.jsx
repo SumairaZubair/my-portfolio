@@ -20,7 +20,7 @@ const Home = () => {
               <span className="text-white ">Sumaira Zubair</span>
             </h1>
             <p className="max-w-[500px] mb-6 text-white/80">
-            I'm a passionate <span className=" pb-1 border-b-accent border-b-2">Frontend Developer / Web Developer</span>
+            {"I'm a passionate "} <span className=" pb-1 border-b-accent border-b-2">Frontend Developer / Web Developer</span>
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
