@@ -47,7 +47,7 @@ const experience = {
   icon: '/assets/resume/badge.svg',
   title: "My experience",
   description:
-  "I have 4+ years of experience as a frontend developer, focusing on creating responsive, performance-driven websites and web applications. My skill set includes HTML, CSS, JavaScript, and modern libraries.",
+  "I have 1 years of experience as a frontend developer, focusing on creating responsive, performance-driven websites and web applications. My skill set includes HTML, CSS, JavaScript, and modern libraries.",
   items:[
     {
     company: "Inciter tech.",
@@ -61,7 +61,7 @@ const education = {
   icon: '/assets/resume/cap.svg',
   title: "My education",
   description:
-"I finished my 12th standard at XYZ College, and then I followed my interest in technology by taking a web development course. In this course, I learned how to build websites using HTML, CSS, JavaScript, and other modern tools. This gave me a solid foundation in frontend development, which I continue to improve through self-learning and hands-on projects.",
+"I finished my 12th standard at degree College, and then I followed my interest in technology by taking a web development course. In this course, I learned how to build websites using HTML, CSS, JavaScript, and other modern tools. This gave me a solid foundation in frontend development, which I continue to improve through self-learning and hands-on projects.",
   items:[
     {
     institution: "Inciter tech",
@@ -121,7 +121,7 @@ const Resume = () => {
         <Tabs 
         defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]"
         >
-          <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0">
+          <TabsList className="flex  flex-col w-full max-w-[380px] mx-auto xl:mx-0">
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
@@ -138,7 +138,7 @@ const Resume = () => {
                       <ul className="grid grid-cols-1 lg:grid-cols-2 gap=[30px]">
                         {experience.items.map((item, index)=>{
                           return(
-                            <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                            <li key={index} className="bg-[#302e2e85] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                               <span className="text-accent">{item.duration}</span>
                               <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
                              <div className="flex items-center gap-3">
@@ -162,7 +162,7 @@ const Resume = () => {
                       <ul className="grid grid-cols-1 lg:grid-cols-2 gap=[30px]">
                         {education.items.map((item, index)=>{
                           return(
-                            <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
+                            <li key={index} className="bg-[#302e2e85] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                               <span className="text-accent">{item.duration}</span>
                               <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
                              <div className="flex items-center gap-3">
@@ -170,6 +170,7 @@ const Resume = () => {
                               <p className="text-white/60">{item.institution}</p>
 
                              </div>
+                             
                             </li>
                           )
                         })}
@@ -188,7 +189,7 @@ const Resume = () => {
                       <li key={index}>
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                            <TooltipTrigger className="w-full h-[150px] bg-[#302e2e85] rounded-xl flex justify-center items-center group">
                               <div className="text-6xl group-hover:text-accent transition-all duration-300">
                                  {skil.icon}
                               </div>
@@ -207,7 +208,7 @@ const Resume = () => {
               </div>
             </TabsContent>
             <TabsContent value="about" className="w-full text-center xl:text-left">
-              <div className="flex flex-col gap-[30px]">
+              <div className="flex flex-col  gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {about.description}

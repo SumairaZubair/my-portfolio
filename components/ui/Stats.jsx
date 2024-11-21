@@ -19,12 +19,12 @@ const Stats = () => {
   return (
     <section>
       <div className="container mx-auto">
-        <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none"></div>
+        <div className="  flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none"></div>
         {stats.map((item, index) => {
           return (
             <div
               key={index}
-              className="flex-1 flex pb-8 gap-4 items-center justify-center xl:justify-start"
+              className="  flex pb-8 gap-4 items-center justify-center xl:justify-start"
             >
               <CountUp
                 end={item.num}
