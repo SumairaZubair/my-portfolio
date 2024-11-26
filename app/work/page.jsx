@@ -206,7 +206,7 @@ const projects = [
       "I created a TikTok clone where users can scroll through videos like on the TikTok app.",
     stack: [{ name: "html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     live: "http://tiktok-lite.vercel.app/",
-    github: "",
+    github: "https://github.com/SumairaZubair/TiktokClone",
   },
   {
     num: "02",
@@ -216,7 +216,7 @@ const projects = [
       "I built a trading platform UI using Next.js, focused on providing a clean and intuitive user experience for traders.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     live: "http://global-fx.vercel.app/",
-    github: "",
+    github: "https://github.com/SumairaZubair/global-fx",
   },
   {
     num: "03",
@@ -226,7 +226,7 @@ const projects = [
       "I created a food delivery website called Cottage using React for the frontend, Firebase for the backend, and Ant Design (AntD) for the UI components.",
     stack: [{ name: "React.js" }, { name: "Css 3" }, { name: "Ant Design " }],
     live: "http://figmaproject2-kohl.vercel.app/",
-    github: "",
+    github: "https://github.com/AsraGhouri/CottageMenu",
   },
   {
     num: "04",
@@ -236,7 +236,26 @@ const projects = [
       "I created a simple UI project using React to practice building interactive user interfaces.",
     stack: [{ name: "React.js" }, { name: "Saas" }, { name: "Mui" }],
     live: "http://metaproject-alpha.vercel.app/",
-    github: "",
+    github: "https://github.com/SumairaZubair/metaproject",
+  },
+  {
+    num: "05",
+    category: "frontend",
+    title: "project 5",
+    description:
+      "An Amazon UI Clone is a replica of Amazon's interface, focusing on its design and layout to practice web development skills.",
+    stack: [{ name: "React.js" }, { name: "Css5" }, { name: "Antd" }],
+    live: "https://ecommerce-rho-three-76.vercel.app/",
+    github: "https://github.com/SumairaZubair/amazon-clone",
+  }, {
+    num: "06",
+    category: "frontend",
+    title: "project 6",
+    description:
+      "A Mohagni replica UI recreates the elegant interface of the clothing brand's website to showcase collections and enhance user experience.",
+    stack: [{ name: "Next" }, { name: "Tailwind.css" }],
+    live: "https://moha-clothing.vercel.app/",
+    github: "https://github.com/SumairaZubair/moha-cloth",
   },
 ];
 
